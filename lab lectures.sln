@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operators5may", "operators\operators5may.csproj", "{425A704D-D1AF-4E0F-BFB6-48CFEB015491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7may", "7may\7may.csproj", "{712DE13A-256E-48C1-8872-53A4B27E77A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{425A704D-D1AF-4E0F-BFB6-48CFEB015491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425A704D-D1AF-4E0F-BFB6-48CFEB015491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425A704D-D1AF-4E0F-BFB6-48CFEB015491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425A704D-D1AF-4E0F-BFB6-48CFEB015491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712DE13A-256E-48C1-8872-53A4B27E77A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712DE13A-256E-48C1-8872-53A4B27E77A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712DE13A-256E-48C1-8872-53A4B27E77A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712DE13A-256E-48C1-8872-53A4B27E77A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {341EB798-2DCD-4130-B526-6C1258CD0AB6}
+	EndGlobalSection
+EndGlobal
