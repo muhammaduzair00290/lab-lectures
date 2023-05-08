@@ -15,4 +15,6 @@ int n = Convert.ToInt32(temp1);
 
 float i = 0.1f;
 int a=(int)(p+p*i*n);
-Console.WriteLine($"now your amount is  { a}after investment {p }  with interest of { i}");
+int a2 = (int)(p * (Math.Pow(1 + i, n)));
+Console.WriteLine($"now your amount is  { a:C}after investment {p }  with interest of { i}");
+Console.WriteLine($"now your amount is  { a2:C}after investment {p }  with interest of { i}");
