@@ -49,7 +49,30 @@
 //    Console.WriteLine(" you are not eligible ");
 //}
 // ternary operator 
-Console.WriteLine(" enter your age ");
-int age = Convert.ToInt32(Console.ReadLine());
-string result = (age >= 18) ? " you are eligible " : " you are not  eligible";// also for conditions checking 
-Console.WriteLine(result);
+//Console.WriteLine(" enter your age ");
+//int age = Convert.ToInt32(Console.ReadLine());
+//string result = (age >= 18) ? " you are eligible " : " you are not  eligible";// also for conditions checking 
+//Console.WriteLine(result);
+Console.WriteLine(" main menu ");
+Console.WriteLine(" --------------");
+Console.WriteLine(" 1. loop demo");
+Console.WriteLine(" 2. array demo");
+Console.WriteLine(" 3. date time demo");
+Console.Write(">>>");
+int choice =Convert.ToInt32(Console.ReadLine()??"0");
+switch(choice )
+{
+    case 1:
+        Console.WriteLine(" loop demo");
+            break;
+    case 2:
+        Console.WriteLine(" array demo");
+            break;
+    case 3:
+        Console.WriteLine(" date and time  demo");
+            break;
+        default: Console.WriteLine(" enter a valid value ");
+            break;
+
+}
+
