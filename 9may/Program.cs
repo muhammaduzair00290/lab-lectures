@@ -61,20 +61,21 @@
 //    }
 //    a++;
 //}
-//    Console.WriteLine(" enter the starting number ");
-//int a =Convert.ToInt32(Console.ReadLine());
+// program to print multiple tables range :
+//Console.WriteLine(" enter the starting number ");
+//int a = Convert.ToInt32(Console.ReadLine());
 //Console.WriteLine(" enter the ending value ");
-//int b =Convert.ToInt32(Console.ReadLine());
-//while (a<=b)
+//int b = Convert.ToInt32(Console.ReadLine());
+//while (a <= b)
 //{
 //    int c = 1;
-//    while (c<=10)
+//    while (c <= 10)
 //    {
-//        Console.WriteLine($"{a}*{c} ={a*c} ");
+//        Console.WriteLine($"{a}*{c} ={a * c} ");
 //        c++;
 //    }
 //    a++;
-//} 
+//}
 //Console.WriteLine(" enter the no to check ");
 //int num = Convert.ToInt32(Console.ReadLine());
 
@@ -88,12 +89,31 @@
 //    Console.WriteLine(" the no is odd ");
 //    }
 
+//Console.Write("Enter any number: ");
+//int num1 = Convert.ToInt32(Console.ReadLine());
+
+//int f = 0;
+//int i = 2;
+//while (i <= num1 / 2)
+//{
+//    if (num1 % i == 0)
+//    {
+//        f = 1;
+//        break;
+//    }
+//    i++;
+//}
+//if (f == 0)
+//    Console.WriteLine(num1 + " is a Prime Number");
+//else
+//    Console.WriteLine(num1 + " is not a Prime Number");
+
 Console.Write("Enter any number: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
 int f = 0;
 int i = 2;
-while (i <= num1 / 2)
+while (i < num1 / 2)
 {
     if (num1 % i == 0)
     {
@@ -107,14 +127,27 @@ if (f == 0)
 else
     Console.WriteLine(num1 + " is not a Prime Number");
 
-//int k = 3 / 2; Console.WriteLine(k);
-//int num2 =Convert.ToInt32(Console.ReadLine());
-//if (num2 % num2 == 0 && num2 % 2 == 1 && num2 % 1 ==num2) 
-//{
-//    Console.WriteLine(" the no is prime ");
-//}
-//else
-//{
-//    Console.WriteLine(" no is not prime ");
-//}
+//Console.Write("Enter any number: ");
+//int num1 = Convert.ToInt32(Console.ReadLine());
 
+//int f = 1;
+//int i = 2;
+//while (i < num1 || num1 ==1)
+//{
+//    if (num1 == 1)
+//    {
+//        f = 0;
+//        break;
+//    }
+//    if (num1 % i == 0 )
+//    {
+//        f = 0;
+//        break;
+//    }
+
+//    i++;
+//}
+//if (f == 1)
+//    Console.WriteLine(num1 + " is a Prime Number");
+//else
+//    Console.WriteLine(num1 + " is not a Prime Number");
