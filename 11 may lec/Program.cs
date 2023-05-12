@@ -118,12 +118,15 @@ static void userAuthentication()
 {
     Console.WriteLine(" enter your name ");
     string? name = Console.ReadLine();
-    
-    
-   
-    if (name.Length<8 && name.Length<=16)
+
+
+
+    if (name.Length < 8 && name.Length <= 16)
     {
         Console.WriteLine($"name should be at least 9 digits long an i between 16 digits  ");
+        Console.WriteLine(" enter a name in between range  ");
+        name = Console.ReadLine();
+
 
     }
     else
@@ -132,34 +135,30 @@ static void userAuthentication()
     }
     Console.WriteLine(" enter your password ");
     string? password = (Console.ReadLine());
-    if (password.Length<8)
+    if (password.Length < 8)
     {
         Console.WriteLine(" password must be long ");
-        
+        Console.WriteLine(" enter a longer password ");
+        password = Console.ReadLine();
+
+
     }
-    else {
+    else
+    {
         Console.WriteLine(" okay password is good lets compare ");
-            }
-    Console.WriteLine(" enter your password again  ");
+    }
+    Console.WriteLine(" enter your password again to compare   ");
     string? password1 = (Console.ReadLine());
+
     if (string.Equals(password, password1))
     {
         Console.WriteLine(" passwords are equal ");
     }
-    else if (password!=password1)
+
+    else
     {
-        Console.WriteLine("  passwords are not equal ");
+        Console.WriteLine(" passwords are not equal ");
     }
-     else { Console.WriteLine(" you are very chalak bro "); 
-    }
-   
-    
-   
-    
-    
-
-
-
 
 }
 static void stdMarks()
@@ -208,3 +207,4 @@ static void stdMarks()
         Console.WriteLine(" you ave entered the wrong details ");
     }
 }
+
