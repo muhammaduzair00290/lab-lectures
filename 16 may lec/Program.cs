@@ -51,5 +51,6 @@ while (playAgain)
 
 Console.WriteLine("Thanks for playing! ... Chlo so jao ja ky ");
 
-Console.ReadKey(); 
+Console.ReadKey();
+Console.WriteLine(" you are pro bro");
         
