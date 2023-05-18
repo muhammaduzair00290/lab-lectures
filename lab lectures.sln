@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16 may", "16 may\16 may.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16 may lec", "16 may lec\16 may lec.csproj", "{3BE5C04F-43EF-42C3-8C1F-7F6548FAD2E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 may lec", "17 may lec\17 may lec.csproj", "{42557D84-5D7A-48E8-835C-62764BB9E450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17 may lec", "17 may lec\17 may lec.csproj", "{42557D84-5D7A-48E8-835C-62764BB9E450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 may", "18 may\18 may.csproj", "{A91D80A5-A282-4868-AE93-AD6B45EEE968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{42557D84-5D7A-48E8-835C-62764BB9E450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42557D84-5D7A-48E8-835C-62764BB9E450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42557D84-5D7A-48E8-835C-62764BB9E450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91D80A5-A282-4868-AE93-AD6B45EEE968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91D80A5-A282-4868-AE93-AD6B45EEE968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91D80A5-A282-4868-AE93-AD6B45EEE968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91D80A5-A282-4868-AE93-AD6B45EEE968}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

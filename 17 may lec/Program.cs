@@ -38,15 +38,29 @@
 //}
 // using for loop
 
+//Console.WriteLine(" enter the string ");
+//string? sentence = Console.ReadLine();
+//Console.WriteLine(" enter the word to find ");
+//string? wordToFind = Console.ReadLine();
+//for (int index = 0; index <= sentence.Length; index++)
+//{
+//    if (sentence.IndexOf(wordToFind, index) == index)
+//    {
+//        Console.WriteLine($"{wordToFind} found at = {index} index "); 
+//    }
+   
+//}
 Console.WriteLine(" enter the string ");
 string? sentence = Console.ReadLine();
 Console.WriteLine(" enter the word to find ");
 string? wordToFind = Console.ReadLine();
-for (int index = 0; index <= sentence.Length; index++)
+int index = -1;
+while (true)
 {
-    if (sentence.IndexOf(wordToFind, index) == index)
+    index=sentence.IndexOf(wordToFind,++index);
+    if (index == -1)
     {
-        Console.WriteLine($"{wordToFind} found at = {index} index "); 
+        break;
     }
-   
+    Console.WriteLine($"{wordToFind} is fnd at {index} ");
 }
