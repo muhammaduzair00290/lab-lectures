@@ -1,4 +1,7 @@
-﻿ Console.Write("Enter the current time (HH:mm) >>> ");
+﻿
+
+// daily Dro hostel :  
+Console.Write("Enter the current time (HH:mm) >>> ");
         string? userInput = Console.ReadLine();
 
         if (TimeSpan.TryParse(userInput, out TimeSpan currentTime))
